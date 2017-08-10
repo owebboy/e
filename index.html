@@ -1,1 +1,28 @@
-<html><head><title></title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500,500i"><link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css"><style>html{height: 100%; margin: 1em 25%;}textarea{vertical-align:top;overflow: hidden; resize: none; border: none; overflow: auto; outline: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; color: #111; background: #fff; width: 100%; height: 100vh; font-size: 18pt; font-family: Roboto, sans-serif; font-weight: 500;}</style></head><body><textarea>Type something here...</textarea><script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.0/autosize.min.js"></script><script>(function(){const t=document.querySelector('textarea'); t.value=localStorage.d; autosize(t); t.addEventListener('input', function(e){document.title=e.target.value.slice(0,20); localStorage.d=e.target.value;});})();</script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500,500i" rel="stylesheet">
+	<link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+	<style>
+	html{height: 100%; margin: 1em 25%;}textarea{vertical-align:top;overflow: hidden; resize: none; border: none; overflow: auto; outline: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; color: #111; background: #fff; width: 100%; height: 100vh; font-size: 18pt; font-family: Roboto, sans-serif; font-weight: 500;}
+	</style>
+</head>
+<body>
+	<textarea>Type something here...</textarea>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.0/autosize.min.js">
+	</script>
+	<script>
+	(function() {
+		const t = document.querySelector('textarea');
+		t.value = localStorage.d;
+		autosize(t);
+		t.addEventListener('input', function(e) {
+			document.title = e.target.value.slice(0, 20);
+			localStorage.d = e.target.value;
+		});
+	})();
+	</script>
+</body>
+</html>
